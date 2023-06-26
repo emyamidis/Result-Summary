@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Summary</title>
+    <link rel="stylesheet" href="/Resultsum.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__result">
+        <h3 class="result__header">Your Result</h3>
+        <div class="result__number">
+          <p class="result__actual">76</p>
+          <p class="result__full">of 100</p>
+        </div>
+        <h2 class="result__text--1">Great</h2>
+        <p class="result__text--2">
+          You scored higher than 65% of the people who have taken these tests
+        </p>
+      </div>
+      <div class="card__summary">
+        <div class="card__summary--content">
+          <h2 class="card__summary--header">Summary</h2>
+          <div class="card__summary--notes notes--reaction">
+            <div class="word--reaction word--flex">
+              <span class="icon--container">
+                <svg class="icon">
+                  <use xlink:href="icon/sprite.svg#icon-reaction"></use>
+                </svg>
+              </span>
+              <p>Reaction</p>
+            </div>
+            <div class="notes--figures">
+              <p class="figures--actual">80&nbsp;</p>
+              <p class="figures--full">/&nbsp;100</p>
+            </div>
+          </div>
+          <div class="card__summary--notes notes--memory">
+            <div class="word--memory word--flex">
+              <span class="icon--container">
+                <svg class="icon">
+                  <use xlink:href="icon/sprite.svg#icon-memory"></use>
+                </svg>
+              </span>
+              <p>Memory</p>
+            </div>
+            <div class="notes--figures">
+              <p class="figures--actual">92&nbsp;</p>
+              <p class="figures--full">/&nbsp;100</p>
+            </div>
+          </div>
+          <div class="card__summary--notes notes--verbal">
+            <div class="word--verbal word--flex">
+              <span class="icon--container">
+                <svg class="icon">
+                  <use xlink:href="icon/sprite.svg#icon-verbal"></use>
+                </svg>
+              </span>
+              <p>Verbal</p>
+            </div>
+            <div class="notes--figures">
+              <p class="figures--actual">61&nbsp;</p>
+              <p class="figures--full">/&nbsp;100</p>
+            </div>
+          </div>
+          <div class="card__summary--notes notes--visual">
+            <div class="word--visual word--flex">
+              <span class="icon--container">
+                <svg class="icon">
+                  <use xlink:href="icon/sprite.svg#icon-visual"></use>
+                </svg>
+              </span>
+              <p>Visual</p>
+            </div>
+            <div class="notes--figures">
+              <p class="figures--actual">72&nbsp;</p>
+              <p class="figures--full">/&nbsp;100</p>
+            </div>
+          </div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
